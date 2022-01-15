@@ -57,7 +57,6 @@ const newQuote = () => {
 const tweetQuote = () => {
   const twitterUrl = `https://twitter.com/intent/tweet?${quoteText.textContent} - ${authorText.textContent}`;
   window.open(twitterUrl, "_blank");
-  console.log("hello");
 };
 
 // EVENT LISTENERS
